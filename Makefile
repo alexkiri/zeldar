@@ -1,7 +1,7 @@
 .PHONY: all clean
 
-# FTP_USERNAME ?= w # set these fields to what your ftp server uses on switch (if it has one)
-# FTP_PASSWORD ?= w
+FTP_USERNAME ?= w # set these fields to what your ftp server uses on switch (if it has one)
+FTP_PASSWORD ?= w
 
 # LOGGER_IP ?= "10.0.0.224" # set this to the IP of the machine that is hosting the tcpServer.py script found in scripts/ (or any other ftp logging script)
 # FTP_IP ?= 192.168.188.27 # set this to your switches IP address in order to send built mod over to it on compile
